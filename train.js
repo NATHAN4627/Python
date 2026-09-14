@@ -1,12 +1,19 @@
-// G Task
-function getHighestIndex(number) {
-  const res = Math.max(...number);
-  return number.indexOf(res);
+// F Task
+
+function findDoublers(str) {
+  for (let i = 0; i < str.length; i++) {
+    for (let j = i + 1; j < str.length; j++) {
+      if (str[i] === str[j]) {
+        return true;
+      }
+    }
+  }
+  return false;
 }
 
-console.log(getHighestIndex([2, 5, 1, 7]));
+console.log(findDoublers("nathan"));
 
-// //F Task
+//G Task
 // function getHighestIndex(arr) {
 //     const maxNumber = Math.max(...arr);
 //     return arr.indexOf(maxNumber);
