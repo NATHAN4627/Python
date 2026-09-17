@@ -63,3 +63,16 @@ def introduce(*args, **kwargs):
 
 
 introduce("Hellou", 21, True, group="MIT", type="A9")
+
+
+print("===zip===")
+
+tuple1 = (1, 2, 3, 4)
+tuple2 = ("x", 'y', 'z')
+
+zipped = zip(tuple1, tuple2)
+res = list(zipped)
+print("res: ", res)
+
+# zipped bulgan tuple larni qiymatini olish uchun birinchi ularni listga olib keyin print() qilamiz 
+
