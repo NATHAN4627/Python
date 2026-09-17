@@ -52,5 +52,14 @@ def introduce(**kwargs):
 
 introduce(name="nathan", age=21)
 
-### *args va **kwargs ni biz qachonki functionga argumentga berayotgan qiymatimiz qanchaligi noaniq bulsa ishlatamiz
+# *args va **kwargs ni biz qachonki functionga argumentga berayotgan qiymatimiz qanchaligi noaniq bulsa ishlatamiz
 
+# using *args & **kwargs at once
+
+
+def introduce(*args, **kwargs):
+    print("*args > ", args)
+    print("**kwargs > ", kwargs)
+
+
+introduce("Hellou", 21, True, group="MIT", type="A9")
