@@ -40,3 +40,17 @@ def calculate(*args):
 calculate(1, 2, 3, 4)
 print("-----")
 calculate(5, 6, 2)
+
+
+# **kwargs > dict
+# **kwargs > funksiyaga xolagancha key=value bersak buladi
+
+def introduce(**kwargs):
+    print(f"type of **kwargs is {type(kwargs)}")
+    print(f"Hello, I am {kwargs["name"]} and I am {kwargs["age"]} years old")
+
+
+introduce(name="nathan", age=21)
+
+### *args va **kwargs ni biz qachonki functionga argumentga berayotgan qiymatimiz qanchaligi noaniq bulsa ishlatamiz
+
