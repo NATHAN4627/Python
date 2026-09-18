@@ -2,7 +2,7 @@ print("===Tuple===")
 
 # ==== tuple vs list ====
 
-# Pythonda odatda kuproq list ishlatiladi arrayga qaraganda chunki arraylar katta sonlar ustida ishlaganda ishlatamiz.
+# Pythonda odatda kuproq list ishlatiladi arrayga qaraganda chunki arraylar katta mantiqlar ustida ishlaganda ishlatamiz.
 # Array larninig barchasi aslida list hisoblanadi
 
 # literal
@@ -39,7 +39,7 @@ def calculate(*args):
 
 calculate(1, 2, 3, 4)
 print("-----")
-calculate(5, 6, 2)
+calculate(5, 6, 2) 
 
 
 # **kwargs > dict
